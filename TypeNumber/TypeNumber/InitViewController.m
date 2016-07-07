@@ -21,7 +21,7 @@
 #import "GameModel.h"
 #import "GameViewController.h"
 #import "InitViewController.h"
-#import <GoogleSignIn.h>
+#import <GoogleSignIn/GIDSignIn.h>
 
 @interface InitViewController () <GPGStatusDelegate, GPGStatusDelegate, GIDSignInUIDelegate>
 @property (weak, nonatomic) IBOutlet UIButton *achButton;
