@@ -395,7 +395,7 @@
 		49CF0E1C18B3D4EB00CEA887 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Google;
 				TargetAttributes = {
 					49CF0E3E18B3D4EB00CEA887 = {
@@ -635,6 +635,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -701,6 +702,7 @@
 				GCC_PREFIX_HEADER = "TypeNumber/TypeNumber-Prefix.pch";
 				INFOPLIST_FILE = "TypeNumber/TypeNumber-Info.plist";
 				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -718,6 +720,7 @@
 				GCC_PREFIX_HEADER = "TypeNumber/TypeNumber-Prefix.pch";
 				INFOPLIST_FILE = "TypeNumber/TypeNumber-Info.plist";
 				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -741,6 +744,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "TypeNumberTests/TypeNumberTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -761,6 +765,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TypeNumber/TypeNumber-Prefix.pch";
 				INFOPLIST_FILE = "TypeNumberTests/TypeNumberTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
