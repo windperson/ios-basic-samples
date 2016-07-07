@@ -398,6 +398,9 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Google;
 				TargetAttributes = {
+					49CF0E2318B3D4EB00CEA887 = {
+						DevelopmentTeam = 9KWN4997N5;
+					};
 					49CF0E3E18B3D4EB00CEA887 = {
 						TestTargetID = 49CF0E2318B3D4EB00CEA887;
 					};
@@ -702,7 +705,7 @@
 				GCC_PREFIX_HEADER = "TypeNumber/TypeNumber-Prefix.pch";
 				INFOPLIST_FILE = "TypeNumber/TypeNumber-Info.plist";
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.capcom.example.TypeNumber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -720,7 +723,7 @@
 				GCC_PREFIX_HEADER = "TypeNumber/TypeNumber-Prefix.pch";
 				INFOPLIST_FILE = "TypeNumber/TypeNumber-Info.plist";
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.capcom.example.TypeNumber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
